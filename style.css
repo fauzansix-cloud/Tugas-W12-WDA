@@ -1,0 +1,128 @@
+/* --- Gaya Umum Halaman --- */
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7e0;
+    color: #3a2a1a;
+    line-height: 1.6;
+}
+
+/* --- Header --- */
+header {
+    background-color: #c0392b;
+    color: #ffffff;
+    text-align: center;
+    padding: 25px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* --- Navigasi --- */
+nav {
+    background-color: #f4b942;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3a2a1a;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #c0392b;
+    text-decoration: underline;
+}
+
+/* --- Konten Utama --- */
+main {
+    padding: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #c0392b;
+    border-bottom: 2px solid #f4b942;
+    padding-bottom: 5px;
+}
+
+/* --- Tabel Menu --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #c0392b;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover td {
+    background-color: #fff3cf;
+}
+
+/* --- Promo --- */
+article {
+    background-color: #fff3cf;
+    padding: 15px;
+    border-left: 5px solid #c0392b;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+time {
+    font-weight: bold;
+    color: #c0392b;
+}
+
+/* --- Alamat --- */
+address {
+    font-style: normal;
+    margin-top: 25px;
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+    border-left: 5px solid #f4b942;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background-color: #3a2a1a;
+    color: #fff7e0;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff7e0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
